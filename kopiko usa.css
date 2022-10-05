@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+*{
+    text-align: center;
+}
+.outbox{
+    height: 215px;
+    width: 100%;
+    background-color: black;
+   
+}
+.navbar{
+    padding: 40px 400px;
+    padding-top: 45px;
+  
+ 
+}
+.kopiko{
+    font-size: 45px;
+    color: #b7b7b7;
+    font-family: "Playfair Display", serif;
+    font-weight: normal;
+    letter-spacing: 4.5px;
+    font-stretch: normal;
+    font-style: normal;
+    transition: 0.4s ease-in-out;
+    
+}
+h1:hover{
+    color:#ff7200;
+    
+    
+    }
+   
+
+.para{
+    
+    letter-spacing: 5px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #b7b7b7;
+    margin-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu{
+   margin-left: 400px;
+   align-items: center;
+   float: none; 
+   color: white;
+   padding-top: 10px;
+  
+
+}
+ul{
+    display: flex;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    font-size: 14px;
+    color: white;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    transition: 0.2s ease-in-out;
+    padding: 0 10px;
+}
+
+
+ul li a:hover{
+    color:#ff7200;
+
+}
+
+
+ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: darkslategray;
+    height: 0.5px;
+   left: 0;
+   width: 100%;
+   top: 150px;
+   
+
+}
+
+.coffee{
+
+    background-image: url(https://kopikousa.com/wp-content/uploads/2020/10/cropped-bigstock-157064345.png);
+    height: 835px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.cont{
+    width: 100%;
+    height: 370px;
+    background-color: black;
+}
+.content{
+    
+    
+    color: #7a7a7a;
+    padding-top: 170px;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+   
+    
+}
+.last{
+    
+    width: 100%;
+    height: 1070px;
+    background-color: black;
+}
+.cup{
+    margin-left: 300px;
+    margin-right: 300px;
+    background-image: url(https://i0.wp.com/kopikousa.com/wp-content/uploads/2020/10/coffee-beans-americano.jpg); 
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+
+.icon{
+    margin-top: 270px;
+   float: none; 
+   padding-top: 10px;
+  
+   
+
+}
+.img1{
+    width: 30px;
+    height: 30px;
+  
+    
+}
+
+
+.icon img{
+    list-style: none;
+    margin-left: 100px;
+   
+   
+}
+.footer{
+    display: flex;
+    margin-top: 190px;
+    margin-left: 590px;
+   
+}
+.foot ul li{
+    font-size: 13px;
+    margin-left: 0%;    
+    color: #7a7a73 ;
+}   
+.foot ul li a{
+    color: white;
+   
+}
+
+ul li a:hover{
+    color:#ff7200;
+
+}
